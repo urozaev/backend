@@ -21,7 +21,6 @@ psycopg2==2.8.4
 pylint==2.4.4
 PyMySQL==0.9.3
 pytz==2019.3
-pywin32==227
 reload==0.9
 six==1.14.0
 tempora==2.1.0
