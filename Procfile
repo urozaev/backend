@@ -1,1 +1,1 @@
-web: waitress-serve —port=8001 app:app
+web: hupper -m waitress --call  --port=8001 app:application
