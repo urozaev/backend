@@ -74,5 +74,5 @@ users_id = UserIdResource()
 api.add_route('/', users)
 api.add_route('/{user_id}', users_id)
 
-serve(api, host = "127.0.0.1", port = 8001)
-# hupper -m waitress --port = 8001 app:application
+serve(api, host = "127.0.0.1", port = 8041)
+# waitress-serve --port=8041 --url-scheme=https app:wsgifunc

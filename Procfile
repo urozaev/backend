@@ -1,1 +1,1 @@
-web: hupper -m waitress --call  --port=8001 app:application
+web: waitress-serve --port=8041 --url-scheme=https app:wsgifunc
